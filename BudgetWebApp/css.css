@@ -1,0 +1,186 @@
+body{
+	background-color: black;
+}
+#billTableWrapperDiv{
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: white;
+	border-radius: 8px;
+	background-color: #e5e5e5;
+}
+
+#billTableDiv{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#billTableDiv input{
+	width: 80%;
+}
+
+#buttonDivWrapper{
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+#buttonDiv{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	clear: left; 
+	background-color: white;
+	border-radius: 8px;
+	background-color: #e5e5e5;
+}
+
+#buttonDiv button{
+	width: 20%;
+	overflow: wrap;
+}
+
+#billTableId{
+	margin: auto;
+}
+
+##billTableId td:hover{
+	cursor: pointer;
+}
+
+#incomeInputDivWrapper{
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-bottom: 15px;
+	background-color: white;
+	border-radius: 8px;
+	background-color: #e5e5e5;
+}
+
+#incomeInputDivWrapper p {
+	font-size: 30px;
+}
+
+#incomeInputDivWrapper input {
+	width: 45%;
+}
+
+#incomeInputDiv{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	clear: left;
+}
+
+#incomeInputDiv label{
+	font-weight: bold;
+}
+
+#resultsDivWrapper{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#resultsDiv{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	clear: left;
+	background-color: #e5e5e5;
+	border-radius: 8px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+
+#buttonDiv button{
+	width: 40%;
+	overflow: wrap;
+	white-space: normal;
+}
+
+#billTableWrapperDiv{
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: white;
+	border-radius: 8px;
+	background-color: #e5e5e5;
+}
+
+#billTableDiv{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#billTableDiv input{
+	width: 80%;
+}
+
+#buttonDivWrapper{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#buttonDiv{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	clear: left; 
+	background-color: white;
+	border-radius: 8px;
+	background-color: #e5e5e5;
+}
+
+#billTableId{
+	margin: auto;
+}
+
+##billTableId td:hover{
+	cursor: pointer;
+}
+
+#incomeInputDivWrapper{
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 15px;
+	background-color: white;
+	border-radius: 8px;
+	background-color: #e5e5e5;
+}
+
+#incomeInputDivWrapper p {
+	font-size: 30px;
+}
+
+#incomeInputDivWrapper input {
+	width: 45%;
+}
+
+#incomeInputDiv{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	clear: left;
+}
+
+#incomeInputDiv label{
+	font-weight: bold;
+}
+
+#resultsDivWrapper{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#resultsDiv{
+	margin-top: 8%;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align: center;
+	clear: left;
+}
+}

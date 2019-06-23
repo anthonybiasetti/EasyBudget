@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Budget App</title>
+    <script type="text/javascript" src="JavaScript.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "css.css" />
+</head>
+<body onload="OnLoad();">
+    <div id="incomeInputDivWrapper">
+        <div id="incomeInputDiv">
+            <p>Easy Budget</p>
+            <label>Monthly Income:<input id="incomeInputId" type="text"></label>
+        </div>
+    </div>
+    <br>
+    <div id="billTableWrapperDiv">
+        <div id="billTableDiv">
+            <table id="billTableId">
+                <thead>
+                    <tr id="tableHeadersId">
+                        <th>Bill</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+            <tr id="RentTableId">
+                <td onclick="DeleteBill(this);">Rent</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr id="GasTableId">
+                <td onclick="DeleteBill(this);">Gas</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr id="FoodTableId">
+                <td onclick="DeleteBill(this);">Food</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr id="EatingOutTableId">
+                <td onclick="DeleteBill(this);">Eating Out</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<br>
+<div id="buttonDivWrapper">
+    <div id="buttonDiv">
+        <button id="addBillButton" onclick="AddBill();">Add Bill</button>
+        <button id="calculateButton" onclick="Calculate();">Calculate</button>
+        <button id="resetButton" onclick="Reset();">Reset</button>
+        <button id="saveButton" onclick="Save();">Save</button>
+    </div>
+</div>
+<div id="resultsDivWrapper">
+    <div id="resultsDiv">
+        <label id="leftOverIncomeLabelId"></label>
+    </div>
+</div>
+</body>
+</html>
